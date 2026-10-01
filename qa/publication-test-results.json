@@ -1,0 +1,37 @@
+{
+  "scope": "Publication smoke: reduced-motion rendering and programmatic dialog activation; original full source interaction evidence is separate.",
+  "results": [
+    {
+      "viewport": "desktop",
+      "render": true,
+      "five_dialogs": true,
+      "no_overflow": true,
+      "page_errors": [],
+      "external_requests": false
+    },
+    {
+      "viewport": "mobile",
+      "render": true,
+      "five_dialogs": true,
+      "no_overflow": true,
+      "page_errors": [],
+      "external_requests": false
+    },
+    {
+      "viewport": "small-mobile",
+      "render": true,
+      "five_dialogs": true,
+      "no_overflow": true,
+      "page_errors": [],
+      "external_requests": false
+    },
+    {
+      "forced_webgl_fallback": true,
+      "dialog": true
+    }
+  ],
+  "limitations": [
+    "Full publication interaction reruns exceeded 240s and 180s limits; not reported as passing."
+  ],
+  "source_runtime_identical_except_import": true
+}

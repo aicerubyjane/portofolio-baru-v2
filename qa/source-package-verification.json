@@ -1,0 +1,8 @@
+{
+  "zip": "aice-portfolio-v3-local.zip",
+  "files": 1102,
+  "bytes": 13425008,
+  "sha256": "4d631708fcb8e062fe9b9724e80a2cd8ba993cfd1f71024aa4560a9b2afb1599",
+  "extracted_smoke": "PASS render + real wheel + project dialog, zero external requests/page errors",
+  "browser": "153.0.8010.12"
+}
