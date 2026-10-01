@@ -1,0 +1,90 @@
+[
+  {
+    "width": 1440,
+    "wheel_camera_before": [
+      10.5,
+      8.3,
+      14.5
+    ],
+    "wheel_camera_after": [
+      -5.631942652685824,
+      5.330930800119174,
+      9.056706466885151
+    ],
+    "five_dialogs": true,
+    "links": [
+      "https://aicestore.web.id",
+      "https://t.me/aireshgpt_bot",
+      "https://aicerubyjane.github.io/Photobox-Web/",
+      "https://camelliashop.aicerubyjane.my.id/",
+      "https://aicerubyjane.github.io/IDX-Chart-Rider/"
+    ],
+    "escape_focus_trap_return": true,
+    "about_contact_audio": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "wheel_camera_before": [
+      10,
+      10,
+      19
+    ],
+    "wheel_camera_after": [
+      -3.5927376080781093,
+      6.698906580895316,
+      12.203631195960945
+    ],
+    "five_dialogs": true,
+    "links": [
+      "https://aicestore.web.id",
+      "https://t.me/aireshgpt_bot",
+      "https://aicerubyjane.github.io/Photobox-Web/",
+      "https://camelliashop.aicerubyjane.my.id/",
+      "https://aicerubyjane.github.io/IDX-Chart-Rider/"
+    ],
+    "escape_focus_trap_return": true,
+    "about_contact_audio": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "width": 320,
+    "wheel_camera_before": [
+      10,
+      10,
+      19
+    ],
+    "wheel_camera_after": [
+      -3.9996134722707235,
+      6.600004294752547,
+      12
+    ],
+    "five_dialogs": true,
+    "links": [
+      "https://aicestore.web.id",
+      "https://t.me/aireshgpt_bot",
+      "https://aicerubyjane.github.io/Photobox-Web/",
+      "https://camelliashop.aicerubyjane.my.id/",
+      "https://aicerubyjane.github.io/IDX-Chart-Rider/"
+    ],
+    "escape_focus_trap_return": true,
+    "about_contact_audio": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "reduced_motion": true
+  },
+  {
+    "webgl_fallback_dialog": true
+  },
+  {
+    "source_sha256": {
+      "app.js": "0c1b65426e442ab8069c1956859bb4b760a2355c8041418956e0a824ac37dab2",
+      "index.html": "33d9ca6f1a98cc3830b7b9752c9d96115bc4fe4cab77b870b2712750eae228b5",
+      "style.css": "684796bfe77224b76898b43293755d06c176baf6d1db68d38165b6503911246a"
+    }
+  }
+]

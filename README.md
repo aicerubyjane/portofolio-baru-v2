@@ -1,27 +1,35 @@
-# Aice Ruby Jane — Ruang proyek
+# Aice Ruby Jane — Ruang proyek / Option C
 
-Static interactive portfolio with a Three.js room, five project introductions, keyboard-accessible dialogs, reduced-motion support, and a WebGL-unavailable project-list fallback.
+An interactive Three.js gallery with scroll-controlled camera, five project dialogs, About and Contact, keyboard navigation, reduced motion, and WebGL-unavailable fallback. Original procedural oak/plaster textures, contact-occlusion gradients and botanical shadow overlays keep all runtime assets local. This is a real-time stylized architectural scene, not a photorealistic path-traced room. Foliage shadows and contact occlusion are procedural approximations.
 
-## Local preview
+## Preview
 
-Run `python3 -m http.server 4173 --bind 127.0.0.1` from this folder and open http://127.0.0.1:4173/. No installation or build step is needed. Use HTTP rather than opening index.html as a file.
+Run `python3 -m http.server 4173 --bind 127.0.0.1` here; open http://127.0.0.1:4173/. No build/install required. ES modules require HTTP, not file://.
 
-## GitHub Pages
+## Public site
 
-In repository **Settings → Pages → Build and deployment**, select **Deploy from a branch**, branch **main**, folder **/(root)**, then **Save**. Wait for the Pages deployment to complete.
+https://aicerubyjane.github.io/portofolio-baru-v2/
 
-Expected URL after successful deployment: https://aicerubyjane.github.io/portofolio-baru-v2/
+Dedicated repository, main branch, root directory, GitHub Pages. No production services are connected to this portfolio.
 
-This URL is not proof of a live deployment. A repository deploy key can push code but cannot enable Pages settings.
+## Content and sources
 
-## Runtime and licensing
+Project order: Aicestore, AireshGPT, Aicy Photobox, Camellia Digital, IDX Chart Rider. Descriptions derive from the supplied public sites and repositories. The game is not a financial tool. No employment, revenue, performance, customer metrics or sole-authorship claims are made. The portrait is explicitly a replaceable placeholder, not a generated identity. Contact and biography are owner-approved.
 
-`index.html`, `style.css`, and `app.js` are the runtime. The only runtime dependency is the local, unmodified Three.js 0.170.0 ES module in `vendor/three/three.module.js`; its MIT license is included alongside it. No CDN, remote fonts, build output, or full node_modules tree is needed. Relative paths support project-site hosting.
+- https://aicestore.web.id
+- https://t.me/aireshgpt_bot
+- https://github.com/aicerubyjane/Photobox-Web
+- https://aicerubyjane.github.io/Photobox-Web/
+- https://camelliashop.aicerubyjane.my.id/
+- https://github.com/aicerubyjane/IDX-Chart-Rider
+- https://aicerubyjane.github.io/IDX-Chart-Rider/
 
-Project descriptions are introductions, not claims of measured outcomes. The preview does not access customer data, payments, market data, or active production systems.
+All supplied URLs were attempted in a real Chromium browser. The Photobox demo timed out from the verification host; its features are attributed to its public repository, not a claimed successful demo test. No transactions or bot conversations were initiated.
+
+## Assets / attribution
+
+Three.js 0.170.0 is locally vendored, unmodified, with its MIT license at `vendor/three/LICENSE`. Geometry, canvas material textures, shadow masks, placeholder typography and optional Web Audio tones are original procedural work for this portfolio. No third-party photographs or music are embedded. Sound is off by default and only begins after clicking its control; it stops when the tab is hidden. Replace the `.portrait` placeholder with an owner-approved photo and descriptive alt text when available.
 
 ## Verification
 
-`qa/source-test-results-v3.json` records the verified source suite at desktop (1440×900), mobile (390×844), and small mobile (320×740), including WebGL, pointer/wheel camera response, chapter navigation, mesh/hotspot interactions, all five dialogs, focus handling, Escape, reduced motion, overflow, external-request checks, and forced WebGL fallback.
-
-`qa/source-package-verification.json` identifies the original source archive. It is provenance for that archive, not a size/hash manifest of this smaller publication. `qa/publication-test-results.json` records a publication smoke test: rendering at all three viewports, five programmatically activated dialogs, overflow, page errors, external requests, and forced WebGL fallback. Full publication interaction reruns exceeded their time limits and are not claimed as passing. The app's only publication change is its local dependency import path. Private audits, recordings, screenshots, development environments, and credentials are excluded.
+`qa/option-c-results.json`: current Chromium desktop 1440×900 and narrow 390×844 / 320×740 checks: real wheel input changes camera coordinates, five dialogs in order, project URL targets, Escape, focus trap/return, About/Contact navigation, audio toggle, overflow, page errors, reduced motion, and forced WebGL fallback. Screenshots and interaction recording remain outside the public repository. Earlier `qa/source-*` and `qa/publication-*` results are historical evidence, not current tests. Mobile checks use Chromium viewport emulation, not physical iOS/Safari devices.
