@@ -1,0 +1,29 @@
+[
+  {
+    "file": "assets/aicestore.png",
+    "source": "https://aicestore.web.id",
+    "provenance": "Existing verified public website capture retained"
+  },
+  {
+    "file": "assets/airesh.png",
+    "source": "https://t.me/aireshgpt_bot",
+    "provenance": "Public landing captured; no Start Bot or chat"
+  },
+  {
+    "file": "assets/photobox.png",
+    "source": "https://github.com/aicerubyjane/Photobox-Web",
+    "provenance": "Isolated local static render; remote demo timed out; external requests blocked; no camera",
+    "commit": "a127ae3a4121cff3533ba4e0ee3e7c3fff8adfd1"
+  },
+  {
+    "file": "assets/camellia.png",
+    "source": "https://camelliashop.aicerubyjane.my.id/",
+    "provenance": "Public website capture"
+  },
+  {
+    "file": "assets/idx.png",
+    "source": "https://github.com/aicerubyjane/IDX-Chart-Rider",
+    "provenance": "Local public source bundled using esbuild; external requests blocked; real welcome screen, not gameplay",
+    "commit": "995712f0ea7d212196224a4722cc2834b254e25a"
+  }
+]
